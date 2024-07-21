@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html><body>
-    <p>Plug in your favorite number and we'll pass it through the useless number transforminator</p>
-    <form action="/transforminate" method="post">
-        <label for="favnum">Your fav number:</label>
-        <input type="number" id="favnum" name="favnum" required>
-        <button type="submit">transforminate!</button>
+    <p>Upload your favorite cloud pic !! ☁️☁️</p>
+    <form action="/result" enctype="multipart/form-data" method="post">
+        <label for="cloud-pic">Upload your cloud pic:</label>
+        <input type="file" id="cloud-pic" name="input_image" accept="image/*" required>
+        </br>
+        <button type="submit">Upload</button>
     </form>
 </body></html>
